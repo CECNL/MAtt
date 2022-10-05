@@ -1,7 +1,7 @@
 # README
 This repository is the official implementation of "MAtt: A Manifold Attention Network for EEG Decoding, NeurIPS 2022". 
 
-MAtt is a novel manifold attention network applied in decoding complex EEG signals. Proposed MAtt executes the forward procedure on both Euclidean space and SPD manifold, but backpropagates the network on Stiefel manifold. For more details for MAtt, please refer to our work: 'MAtt: A Manifold Attention Network for EEG Decoding, NeurIPS 2022'.
+MAtt is a novel manifold attention network applied in decoding complex EEG signals. It executes the forward procedure on both Euclidean space and SPD manifold while performing backpropagation on Stiefel manifold. For more details of MAtt, please refer to our paper: 'MAtt: A Manifold Attention Network for EEG Decoding, NeurIPS 2022'.
 
 ## Requirements
 #### Step 1:
@@ -14,11 +14,11 @@ conda activate mAtt_env
 Download datasets and unzip them to the folder "code_2022".
 
 ## Dataset
-1. BCIC-IV-2a ('bci'):
+1. BCIC-IV-2a:
     https://www.bbci.de/competition/iv/
-2. MAMEM-SSVEP-II ('mamem'):
+2. MAMEM-SSVEP-II:
    https://www.mamem.eu/results/datasets/
-3. BCI-ERN ('bcicha'):
+3. BCI-ERN:
     https://www.kaggle.com/competitions/inria-bci-challenge/data
 
 <!-- Link to download [data](https://drive.google.com/file/d/1_KBfSNzvxCZ-HwiOASQhlFe8wwsq4vHt/view?usp=sharing) -->
@@ -30,7 +30,7 @@ To train and test the mAtt in the paper, run this command:
 ```train and test
 python mAtt_<which_dataset>.py
 ```
-All default hyperparameters are already set in files. 'which_dataset' can be chosen as 'bci', 'mamem', or 'bcicha'.
+All default hyperparameters are already set in files. 'which_dataset' can be chosen as 'bci' (BCIC-IV-2a), 'mamem' (MAMEM-SSVEP-II), or 'bcicha' (BCI-ERN).
 
 
 
