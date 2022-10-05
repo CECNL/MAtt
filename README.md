@@ -4,21 +4,21 @@ This repository is the official implementation of "MAtt: A Manifold Attention Ne
 MAtt is a novel manifold attention network applied in decoding complex EEG signals. Proposed MAtt executes the forward procedure on both Euclidean space and SPD manifold, but backpropagates the network on Stiefel manifold. For more details for MAtt, please refer to our work: 'MAtt: A Manifold Attention Network for EEG Decoding, NeurIPS 2022'.
 
 ## Requirements
-#### Step1:
+#### Step 1:
 To install requirements:
 ```setup
 conda env create -f /path/to/mAtt_env.yml
 conda activate mAtt_env
 ```
-#### Step2:
+#### Step 2:
 Download datasets and unzip them to the folder "code_2022".
 
 ## Dataset
-1. BCICIV2a:
+1. BCIC-IV-2a ('bci'):
     https://www.bbci.de/competition/iv/
-2. MAMEM SSVEP:
+2. MAMEM-SSVEP-II ('mamem'):
    https://www.mamem.eu/results/datasets/
-3. BCI challenge:
+3. BCI-ERN ('bcicha'):
     https://www.kaggle.com/competitions/inria-bci-challenge/data
 
 <!-- Link to download [data](https://drive.google.com/file/d/1_KBfSNzvxCZ-HwiOASQhlFe8wwsq4vHt/view?usp=sharing) -->
@@ -38,15 +38,6 @@ All default hyperparameters are already set in files. 'which_dataset' can be cho
 - MAtt: A Manifold Attention Network for EEG Decoding, NeurIPS 2022.
 
 ```bash
-@misc{spdnet2020,
-  author={adavoudi},
-  title={spdnet},
-  year={2020},
-  url={https://github.com/adavoudi/spdnet},
-}
-```
-
-```bash
 @inproceedings{wei2019spatial,
   title={Spatial component-wise convolutional network (SCCNet) for motor-imagery EEG classification},
   author={Wei, Chun-Shu and Koike-Akino, Toshiaki and Wang, Ye},
@@ -56,6 +47,17 @@ All default hyperparameters are already set in files. 'which_dataset' can be cho
   organization={IEEE}
 }
 ```
+
+
+```bash
+@inproceedings{huang2017riemannian,
+  title={A riemannian network for spd matrix learning},
+  author={Huang, Zhiwu and Van Gool, Luc},
+  booktitle={Thirty-first AAAI conference on artificial intelligence},
+  year={2017}
+}
+```
+
 
 ```bash
 @article{brunner2008bci,
@@ -91,11 +93,4 @@ doi = "10.6084/m9.figshare.3153409.v4"
   publisher={Hindawi}
 }
 ```
-
-
-
-
-
-
-
 
