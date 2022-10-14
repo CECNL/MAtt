@@ -100,4 +100,13 @@ doi = "10.6084/m9.figshare.3153409.v4"
   publisher={Hindawi}
 }
 ```
+We modified code from:
+```bash
+@misc{spdnet2020,
+  author={adavoudi},
+  title={spdnet},
+  year={2020},
+  url={https://github.com/adavoudi/spdnet},
+}
+```
 
