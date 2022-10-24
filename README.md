@@ -11,7 +11,8 @@ conda env create -f /path/to/mAtt_env.yml
 conda activate mAtt_env
 ```
 #### Step 2:
-Download datasets and unzip them to the folder "code_2022".
+Create a new empty folder 'data' in this folder.
+Download datasets and unzip them to the folder 'data'.
 
 ## Dataset
 1. BCIC-IV-2a:
@@ -21,7 +22,7 @@ Download datasets and unzip them to the folder "code_2022".
 3. BCI-ERN:
     https://www.kaggle.com/competitions/inria-bci-challenge/data
 
-<!-- Link to download [data](https://drive.google.com/file/d/1_KBfSNzvxCZ-HwiOASQhlFe8wwsq4vHt/view?usp=sharing) -->
+Link to download [data](https://drive.google.com/file/d/1_KBfSNzvxCZ-HwiOASQhlFe8wwsq4vHt/view?usp=sharing)
 
 ## Training and testing
 
