@@ -4,35 +4,35 @@ channels:
   - defaults
   - conda-forge
 dependencies:
-  - blas=1.0=mkl
-  - bzip2=1.0.8=h1de35cc_0
-  - ca-certificates=2022.4.26=hecd8cb5_0
+  - blas=1.0
+  - bzip2=1.0.8
+  - ca-certificates
   - certifi=2021.5.30=py36hecd8cb5_0
-  - cpuonly=2.0=0
-  - dataclasses=0.8=pyh4f3eec9_6
-  - ffmpeg=4.3=h0a44026_0
-  - freetype=2.11.0=hd8bbffd_0
-  - gettext=0.21.0=h7535e17_0
-  - gmp=6.2.1=h23ab428_2
-  - gnutls=3.6.15=hed9c0bf_0
-  - icu=58.2=h0a44026_3
-  - intel-openmp=2022.0.0=hecd8cb5_3615
-  - jpeg=9e=hca72f7f_0
-  - lame=3.100=h1de35cc_0
-  - lcms2=2.12=hf1fd2bf_0
-  - libblas=3.9.0=14_osx64_mkl
-  - libcblas=3.9.0=14_osx64_mkl
-  - libcxx=12.0.0=h2f01273_0
-  - libedit=3.1.20210910=hca72f7f_0
-  - libffi=3.2.1=h0a44026_1007
-  - libiconv=1.16=hca72f7f_2
-  - libidn2=2.3.2=h9ed2024_0
-  - liblapack=3.9.0=14_osx64_mkl
-  - libpng=1.6.37=ha441bb4_0
-  - libtasn1=4.16.0=h9ed2024_0
-  - libtiff=4.2.0=hdb42f99_1
-  - libunistring=0.9.10=h9ed2024_0
-  - libuv=1.40.0=haf1e3a3_0
+  - cpuonly=2.0
+  - dataclasses=0.8
+  - ffmpeg=4.3
+  - freetype=2.11.0
+  - gettext=0.21.0
+  - gmp=6.2.1
+  - gnutls=3.6.15
+  - icu=58.2
+  - intel-openmp=2022.0.0
+  - jpeg=9e
+  - lame=3.100
+  - lcms2=2.12
+  - libblas=3.9.0
+  - libcblas=3.9.0
+  - libcxx=12.0.0
+  - libedit=3.1.20210910
+  - libffi=3.2.1
+  - libiconv=1.16
+  - libidn2=2.3.2
+  - liblapack=3.9.0
+  - libpng=1.6.37
+  - libtasn1=4.16.0
+  - libtiff=4.2.0
+  - libunistring
+  - libuv=1.40.0
   - libwebp-base=1.2.2=hca72f7f_0
   - libxml2=2.9.12=hbf8cd5e_2
   - llvm-openmp=12.0.0=h0dcd299_1
