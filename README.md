@@ -38,9 +38,11 @@ All default hyperparameters are already set in files. 'which_dataset' can be cho
 ## Reference
 ```bash
 @article{pan2022matt,
-  title={MAtt: A Manifold Attention Network for EEG Decoding},
+  title={MAtt: a manifold attention network for EEG decoding},
   author={Pan, Yue-Ting and Chou, Jing-Lun and Wei, Chun-Shu},
-  journal={arXiv preprint arXiv:2210.01986},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={31116--31129},
   year={2022}
 }
 ```
